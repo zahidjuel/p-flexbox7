@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 500px;
+            display: flex;
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: center; */
+
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+
+            /* 
+            when flex-direction: column; x-axis working (align-items: property;)
+            y-axis working (justify-content: property; )
+            */
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* align-items: center; */
+            /* justify-content: center; */
+
+            /* align-content: flex-start; */
+            /* align-content: flex-end; */
+            /* align-content: center; */
+
+            /* align-content: space-between; */
+            /* align-content: space-around; */
+            /* align-content: space-evenly; */
+            /* flex-wrap: wrap; */
+            /* align-items: stretch; */
+
+
+            border: 1px solid rebeccapurple;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            border: 2px dotted hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I am exploring CSS Flexbox flex-container</h1>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+        <div class="box">box-6</div>
+        <div class="box">box-7</div>
+        <div class="box">box-7</div>
+        <div class="box">box-8</div>
+        <div class="box">box-9</div>
+        <div class="box">box-10</div>
+        <div class="box">box-11</div>
+        <div class="box">box-12</div>
+        <div class="box">box-13</div>
+        <div class="box">box-14</div>
+        <div class="box">box-15</div>
+    </div>
+</body>
+</html>
